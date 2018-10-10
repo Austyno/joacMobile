@@ -1,0 +1,44 @@
+.loc-swiper .swiper-slide {
+    font-size: 25px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #000;
+    height: 120px;
+  }
+  .card-content > img{
+    border-radius:5%; 
+  }
+  .index-padding{
+    padding:3px;
+  }
+  .index-bottom img{
+    width:100%;
+  }
+  .index-bottom p{
+    position:relative;
+    margin-top:-55%;
+    margin-bottom:15%;
+    z-index:1000;
+    color:white;
+    font-size:20px;
+    margin-left:20%
+  }
+  .index-bottom a{
+    position:relative;
+    margin-top:-15%;
+    z-index:1000;
+    margin-left:20%;
+    margin-right:20%;
+    background:white
+  }
+  /* sponsors */
+  .sponsor{
+    float:left;
+    display:inline-block;
+  }
+  .sponsor img{
+    width:50px
+  }
