@@ -11,9 +11,20 @@
   .card-content > img{
     border-radius:5%; 
   }
-  .index-padding{
-    padding:3px;
+  .index_middle_link{
+    /* padding:3px; */
+    z-index: 1;
   }
+  .index_middle_link a{
+    position:relative;
+    margin-top:-24%;
+    z-index:1;
+    background:white
+  }
+  .index_middle_link img{
+    width: 100%;
+  }
+  
   .index-bottom img{
     width:100%;
   }
